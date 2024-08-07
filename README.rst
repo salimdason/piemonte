@@ -1,37 +1,26 @@
-========
-piemonte
-========
+# Piemonte
+
+Piemonte is a Python package designed to reduce redundancy in protein sequences from metagenomic datasets. It utilizes advanced similarity search techniques to efficiently identify and manage redundant protein sequences, making it an essential tool for bioinformaticians working with large-scale metagenomic data.
+
+# Features
+- **Redundancy Reduction:** Identify and remove redundant protein sequences.
+- **Advanced Similarity Search:** Utilize efficient similarity search algorithms to find similar sequences.
+- **Integration with Faiss:** Use the Faiss library for high-performance similarity search.
+- **Easy-to-Use CLI:** Simple command-line interface for easy integration into your workflows.
+
+# Installation
+
+```bash
+  $ pip install piemonte
+```
+
+# Usage
+```bash
+  $ piemonte
+```
 
 
-.. image:: https://img.shields.io/pypi/v/piemonte.svg
-        :target: https://pypi.python.org/pypi/piemonte
+## License
 
-.. image:: https://img.shields.io/travis/salimdason/piemonte.svg
-        :target: https://travis-ci.com/salimdason/piemonte
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
-.. image:: https://readthedocs.org/projects/piemonte/badge/?version=latest
-        :target: https://piemonte.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
-
-
-
-
-Piemonte - A tool to reduce redundancy in protein sequences from metagenomic datasets.
-
-
-* Free software: GNU General Public License v3
-* Documentation: https://piemonte.readthedocs.io.
-
-
-Features
---------
-
-* TODO
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
